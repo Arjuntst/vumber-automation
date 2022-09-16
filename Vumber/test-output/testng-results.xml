@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-16T11:44:27 IST" name="Default suite" finished-at="2022-09-16T11:50:14 IST" duration-ms="347272">
+    <groups>
+    </groups>
+    <test started-at="2022-09-16T11:44:27 IST" name="Default test" finished-at="2022-09-16T11:50:14 IST" duration-ms="347272">
+      <class name="com.admin.test.TextMessagingFlow">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:44:27 IST" name="setExtent" finished-at="2022-09-16T11:44:27 IST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="LaunchUrl()[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:44:27 IST" name="LaunchUrl" finished-at="2022-09-16T11:44:36 IST" duration-ms="9171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchUrl -->
+        <test-method signature="Login()[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:44:36 IST" name="Login" finished-at="2022-09-16T11:44:50 IST" duration-ms="13815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:44:50 IST" name="tearDown" finished-at="2022-09-16T11:44:51 IST" duration-ms="1106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=TextMessagingFlow.Login()[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchUrl()[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:44:51 IST" name="LaunchUrl" finished-at="2022-09-16T11:44:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchUrl -->
+        <test-method signature="openAllMsgs()[pri:1, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:44:51 IST" name="openAllMsgs" finished-at="2022-09-16T11:45:02 IST" duration-ms="10289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAllMsgs -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:45:02 IST" name="tearDown" finished-at="2022-09-16T11:45:02 IST" duration-ms="227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openAllMsgs status=SUCCESS method=TextMessagingFlow.openAllMsgs()[pri:1, instance:com.admin.test.TextMessagingFlow@306e95ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="SndMessage()[pri:2, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:45:02 IST" name="SndMessage" finished-at="2022-09-16T11:45:22 IST" duration-ms="19965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SndMessage -->
+        <test-method is-config="true" signature="LaunchUrl()[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:45:02 IST" name="LaunchUrl" finished-at="2022-09-16T11:45:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchUrl -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:45:22 IST" name="tearDown" finished-at="2022-09-16T11:45:22 IST" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SndMessage status=SUCCESS method=TextMessagingFlow.SndMessage()[pri:2, instance:com.admin.test.TextMessagingFlow@306e95ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchUrl()[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:45:22 IST" name="LaunchUrl" finished-at="2022-09-16T11:45:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchUrl -->
+        <test-method signature="TextBlast()[pri:4, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:45:22 IST" name="TextBlast" finished-at="2022-09-16T11:45:41 IST" duration-ms="19503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextBlast -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:45:41 IST" name="tearDown" finished-at="2022-09-16T11:45:42 IST" duration-ms="618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TextBlast status=SUCCESS method=TextMessagingFlow.TextBlast()[pri:4, instance:com.admin.test.TextMessagingFlow@306e95ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchUrl()[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:45:42 IST" name="LaunchUrl" finished-at="2022-09-16T11:45:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchUrl -->
+        <test-method signature="cancel()[pri:5, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:45:42 IST" name="cancel" finished-at="2022-09-16T11:45:53 IST" duration-ms="10724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancel -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:45:53 IST" name="tearDown" finished-at="2022-09-16T11:45:53 IST" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cancel status=SUCCESS method=TextMessagingFlow.cancel()[pri:5, instance:com.admin.test.TextMessagingFlow@306e95ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="SndEmptyMessage()[pri:6, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:45:53 IST" name="SndEmptyMessage" finished-at="2022-09-16T11:46:11 IST" duration-ms="18344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SndEmptyMessage -->
+        <test-method is-config="true" signature="LaunchUrl()[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:45:53 IST" name="LaunchUrl" finished-at="2022-09-16T11:45:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchUrl -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:46:11 IST" name="tearDown" finished-at="2022-09-16T11:46:11 IST" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SndEmptyMessage status=SUCCESS method=TextMessagingFlow.SndEmptyMessage()[pri:6, instance:com.admin.test.TextMessagingFlow@306e95ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchUrl()[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:46:11 IST" name="LaunchUrl" finished-at="2022-09-16T11:46:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchUrl -->
+        <test-method signature="SndMessagewithoutnumber()[pri:7, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:46:11 IST" name="SndMessagewithoutnumber" finished-at="2022-09-16T11:46:30 IST" duration-ms="18251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SndMessagewithoutnumber -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:46:30 IST" name="tearDown" finished-at="2022-09-16T11:46:30 IST" duration-ms="178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SndMessagewithoutnumber status=SUCCESS method=TextMessagingFlow.SndMessagewithoutnumber()[pri:7, instance:com.admin.test.TextMessagingFlow@306e95ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchUrl()[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:46:30 IST" name="LaunchUrl" finished-at="2022-09-16T11:46:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchUrl -->
+        <test-method signature="sndmsgbyselectinganothervumbernumber()[pri:8, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:46:30 IST" name="sndmsgbyselectinganothervumbernumber" finished-at="2022-09-16T11:48:01 IST" duration-ms="91295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sndmsgbyselectinganothervumbernumber -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:48:01 IST" name="tearDown" finished-at="2022-09-16T11:48:01 IST" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sndmsgbyselectinganothervumbernumber status=SUCCESS method=TextMessagingFlow.sndmsgbyselectinganothervumbernumber()[pri:8, instance:com.admin.test.TextMessagingFlow@306e95ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Refresh()[pri:9, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:48:01 IST" name="Refresh" finished-at="2022-09-16T11:48:10 IST" duration-ms="8388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Refresh -->
+        <test-method is-config="true" signature="LaunchUrl()[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:48:01 IST" name="LaunchUrl" finished-at="2022-09-16T11:48:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchUrl -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:48:10 IST" name="tearDown" finished-at="2022-09-16T11:48:10 IST" duration-ms="220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Refresh status=SUCCESS method=TextMessagingFlow.Refresh()[pri:9, instance:com.admin.test.TextMessagingFlow@306e95ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchUrl()[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:48:10 IST" name="LaunchUrl" finished-at="2022-09-16T11:48:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchUrl -->
+        <test-method signature="opensentonlyMsgs()[pri:10, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:48:10 IST" name="opensentonlyMsgs" finished-at="2022-09-16T11:48:19 IST" duration-ms="8785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opensentonlyMsgs -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:48:19 IST" name="tearDown" finished-at="2022-09-16T11:48:19 IST" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=opensentonlyMsgs status=SUCCESS method=TextMessagingFlow.opensentonlyMsgs()[pri:10, instance:com.admin.test.TextMessagingFlow@306e95ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchUrl()[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:48:19 IST" name="LaunchUrl" finished-at="2022-09-16T11:48:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchUrl -->
+        <test-method signature="SndMessagethroughsentonlymsgs()[pri:11, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:48:19 IST" name="SndMessagethroughsentonlymsgs" finished-at="2022-09-16T11:48:39 IST" duration-ms="19782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SndMessagethroughsentonlymsgs -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:48:39 IST" name="tearDown" finished-at="2022-09-16T11:48:39 IST" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SndMessagethroughsentonlymsgs status=SUCCESS method=TextMessagingFlow.SndMessagethroughsentonlymsgs()[pri:11, instance:com.admin.test.TextMessagingFlow@306e95ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchUrl()[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:48:39 IST" name="LaunchUrl" finished-at="2022-09-16T11:48:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchUrl -->
+        <test-method signature="TextBlastthroughsend()[pri:12, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:48:39 IST" name="TextBlastthroughsend" finished-at="2022-09-16T11:48:58 IST" duration-ms="18655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextBlastthroughsend -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:48:58 IST" name="tearDown" finished-at="2022-09-16T11:48:58 IST" duration-ms="288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TextBlastthroughsend status=SUCCESS method=TextMessagingFlow.TextBlastthroughsend()[pri:12, instance:com.admin.test.TextMessagingFlow@306e95ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchUrl()[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:48:58 IST" name="LaunchUrl" finished-at="2022-09-16T11:48:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchUrl -->
+        <test-method signature="cancelbuttoninsentonly()[pri:13, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:48:58 IST" name="cancelbuttoninsentonly" finished-at="2022-09-16T11:49:09 IST" duration-ms="11319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelbuttoninsentonly -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:49:09 IST" name="tearDown" finished-at="2022-09-16T11:49:09 IST" duration-ms="168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cancelbuttoninsentonly status=SUCCESS method=TextMessagingFlow.cancelbuttoninsentonly()[pri:13, instance:com.admin.test.TextMessagingFlow@306e95ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchUrl()[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:49:09 IST" name="LaunchUrl" finished-at="2022-09-16T11:49:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchUrl -->
+        <test-method signature="SndEmptyMessageinsentonly()[pri:14, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:49:09 IST" name="SndEmptyMessageinsentonly" finished-at="2022-09-16T11:49:27 IST" duration-ms="17515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SndEmptyMessageinsentonly -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:49:27 IST" name="tearDown" finished-at="2022-09-16T11:49:27 IST" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SndEmptyMessageinsentonly status=SUCCESS method=TextMessagingFlow.SndEmptyMessageinsentonly()[pri:14, instance:com.admin.test.TextMessagingFlow@306e95ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchUrl()[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:49:27 IST" name="LaunchUrl" finished-at="2022-09-16T11:49:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchUrl -->
+        <test-method signature="SndMessagewithoutnumberinsentonly()[pri:15, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:49:27 IST" name="SndMessagewithoutnumberinsentonly" finished-at="2022-09-16T11:49:45 IST" duration-ms="17593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SndMessagewithoutnumberinsentonly -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:49:45 IST" name="tearDown" finished-at="2022-09-16T11:49:45 IST" duration-ms="160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SndMessagewithoutnumberinsentonly status=SUCCESS method=TextMessagingFlow.SndMessagewithoutnumberinsentonly()[pri:15, instance:com.admin.test.TextMessagingFlow@306e95ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="LaunchUrl()[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:49:45 IST" name="LaunchUrl" finished-at="2022-09-16T11:49:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchUrl -->
+        <test-method signature="sndmsgbyselectinganothervumbernumberinsentonly()[pri:16, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:49:45 IST" name="sndmsgbyselectinganothervumbernumberinsentonly" finished-at="2022-09-16T11:50:03 IST" duration-ms="17915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sndmsgbyselectinganothervumbernumberinsentonly -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:50:03 IST" name="tearDown" finished-at="2022-09-16T11:50:03 IST" duration-ms="193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sndmsgbyselectinganothervumbernumberinsentonly status=SUCCESS method=TextMessagingFlow.sndmsgbyselectinganothervumbernumberinsentonly()[pri:16, instance:com.admin.test.TextMessagingFlow@306e95ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Refreshinsentonly()[pri:17, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:50:03 IST" name="Refreshinsentonly" finished-at="2022-09-16T11:50:11 IST" duration-ms="8142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Refreshinsentonly -->
+        <test-method is-config="true" signature="LaunchUrl()[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:50:03 IST" name="LaunchUrl" finished-at="2022-09-16T11:50:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchUrl -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:50:11 IST" name="tearDown" finished-at="2022-09-16T11:50:11 IST" duration-ms="165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Refreshinsentonly status=SUCCESS method=TextMessagingFlow.Refreshinsentonly()[pri:17, instance:com.admin.test.TextMessagingFlow@306e95ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:50:11 IST" name="endReport" finished-at="2022-09-16T11:50:14 IST" duration-ms="2662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="viewExtentReport()[pri:0, instance:com.admin.test.TextMessagingFlow@306e95ec]" started-at="2022-09-16T11:50:14 IST" name="viewExtentReport" finished-at="2022-09-16T11:50:29 IST" duration-ms="15371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewExtentReport -->
+      </class> <!-- com.admin.test.TextMessagingFlow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
