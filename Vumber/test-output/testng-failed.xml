@@ -5,28 +5,17 @@
     <classes>
       <class name="com.admin.test.TextMessagingFlow">
         <methods>
-          <include name="Refresh"/>
-          <include name="SndEmptyMessage"/>
-          <include name="TextBlast"/>
+          <include name="cancelbuttoninsentonly"/>
           <include name="viewExtentReport"/>
           <include name="SndMessagewithoutnumberinsentonly"/>
-          <include name="SndMessagethroughsentonlymsgs"/>
+          <include name="sndmsgbyselectinganothervumbernumberinsentonly"/>
           <include name="SndEmptyMessageinsentonly"/>
           <include name="Refreshinsentonly"/>
+          <include name="LaunchUrl"/>
           <include name="tearDown"/>
+          <include name="setExtent"/>
           <include name="endReport"/>
           <include name="TextBlastthroughsend"/>
-          <include name="cancel"/>
-          <include name="SndMessagewithoutnumber"/>
-          <include name="cancelbuttoninsentonly"/>
-          <include name="sndmsgbyselectinganothervumbernumber"/>
-          <include name="sndmsgbyselectinganothervumbernumberinsentonly"/>
-          <include name="LaunchUrl"/>
-          <include name="setExtent"/>
-          <include name="Login"/>
-          <include name="openAllMsgs"/>
-          <include name="opensentonlyMsgs"/>
-          <include name="SndMessage"/>
         </methods>
       </class> <!-- com.admin.test.TextMessagingFlow -->
     </classes>

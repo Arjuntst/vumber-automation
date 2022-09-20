@@ -155,6 +155,102 @@ public class TextMessagingFlow extends Base
 			  Thread.sleep(2000);
 		}
 	 @Test(priority=10)
+	 public static  void openreceivedonlyMsgs() throws Exception
+		{
+		      driver.get(driver.getCurrentUrl());
+			  test = extent.createTest("To check and verify the Received only messages functionality");
+			  Testmessagingscreen.ReceivedonlyMsgs();
+			  Thread.sleep(2000);
+			  //driver.get(driver.getCurrentUrl());
+			
+		}
+	/* @Test(priority=3)
+	 public static  void closemsgtab() throws Exception
+		{
+		      driver.get(driver.getCurrentUrl());
+			  test = extent.createTest("close msg tab");
+			  Testmessagingscreen.closemsgtab();
+			  Thread.sleep(2000);
+			  //driver.get(driver.getCurrentUrl());
+		}
+	 */
+	 @Test(priority=11)
+	 public static  void SndMessagethroughReceivedonlymsgs() throws Exception
+		{
+		      driver.get(driver.getCurrentUrl());
+			  test = extent.createTest("To check and verify Send message To received only");
+			  Thread.sleep(2000);
+			  Testmessagingscreen.SndMessage();
+			  Thread.sleep(2000);
+			  //driver.get(driver.getCurrentUrl());
+	
+}/*
+	 @Test(priority=4)
+	 public static  void SndMessageGIFFile() throws Exception
+		{
+		      driver.get(driver.getCurrentUrl());
+			  test = extent.createTest("To check and verify Send message as GIFFile");
+			  Thread.sleep(2000);
+			  Testmessagingscreen.SndMessageGIFFile();
+			  Thread.sleep(2000);
+			  //driver.get(driver.getCurrentUrl());
+}*/
+	 @Test(priority=12)
+	 public static  void TextBlastthroughreceived() throws Exception
+		{
+		      driver.get(driver.getCurrentUrl());
+			  test = extent.createTest("Send Messages through TextBlast to Received only");
+			  Testmessagingscreen.TextBlast();
+			  Thread.sleep(4000);
+			  //driver.get(driver.getCurrentUrl());
+
+}
+	 @Test(priority=13)
+	 public static  void cancelbuttonreceivedonly() throws Exception
+		{
+		      driver.get(driver.getCurrentUrl());
+			  test = extent.createTest("To verify the cancel button in received only");
+			  Testmessagingscreen.cancel();
+			  Thread.sleep(4000);
+		}
+	 @Test(priority=14)
+	 public static  void SndEmptyMessaeReceivedonly() throws Exception
+		{
+		      driver.get(driver.getCurrentUrl());
+			  test = extent.createTest("To check and verify to Send empty message in received only");
+			  Thread.sleep(2000);
+			  Testmessagingscreen.SndEmptyMessage();
+			  Thread.sleep(2000);
+			  //driver.get(driver.getCurrentUrl());
+}
+	 @Test(priority=15)
+	 public static  void SndMessagewithoutnumberinreceivedonly() throws Exception
+		{
+		      driver.get(driver.getCurrentUrl());
+			  test = extent.createTest("To check and verify to Send message without number in received only page");
+			  Thread.sleep(2000);
+			  Testmessagingscreen.SndMessagewithoutnumber();
+			  Thread.sleep(2000);
+}
+	 @Test(priority=16)
+	 public static  void sndmsgbyselectinganothervumbernumberinreceivedonly() throws Exception
+		{
+		      driver.get(driver.getCurrentUrl());
+			  test = extent.createTest("To check and verify to Send message by selecting another vumber number in received only page");
+			  Thread.sleep(2000);
+			  Testmessagingscreen.sndmsgbyselectinganothervumbernumber();
+			  Thread.sleep(2000);
+}
+	 @Test(priority=17)
+	 public static  void RefreshReceivedonly() throws Exception
+		{
+		      driver.get(driver.getCurrentUrl());
+			  test = extent.createTest("To check and verify the Refresh Button Functionality in Received only page");
+			  Thread.sleep(2000);
+			  Testmessagingscreen.Refresh();
+			  Thread.sleep(2000);
+		}
+	 @Test(priority=18)
 	 public static  void opensentonlyMsgs() throws Exception
 		{
 		      driver.get(driver.getCurrentUrl());
@@ -174,7 +270,7 @@ public class TextMessagingFlow extends Base
 			  //driver.get(driver.getCurrentUrl());
 		}
 	 */
-	 @Test(priority=11)
+	 @Test(priority=19)
 	 public static  void SndMessagethroughsentonlymsgs() throws Exception
 		{
 		      driver.get(driver.getCurrentUrl());
@@ -195,7 +291,7 @@ public class TextMessagingFlow extends Base
 			  Thread.sleep(2000);
 			  //driver.get(driver.getCurrentUrl());
 }*/
-	 @Test(priority=12)
+	 @Test(priority=20)
 	 public static  void TextBlastthroughsend() throws Exception
 		{
 		      driver.get(driver.getCurrentUrl());
@@ -205,7 +301,7 @@ public class TextMessagingFlow extends Base
 			  //driver.get(driver.getCurrentUrl());
 
 }
-	 @Test(priority=13)
+	 @Test(priority=21)
 	 public static  void cancelbuttoninsentonly() throws Exception
 		{
 		      driver.get(driver.getCurrentUrl());
@@ -213,7 +309,7 @@ public class TextMessagingFlow extends Base
 			  Testmessagingscreen.cancel();
 			  Thread.sleep(4000);
 		}
-	 @Test(priority=14)
+	 @Test(priority=22)
 	 public static  void SndEmptyMessageinsentonly() throws Exception
 		{
 		      driver.get(driver.getCurrentUrl());
@@ -223,7 +319,7 @@ public class TextMessagingFlow extends Base
 			  Thread.sleep(2000);
 			  //driver.get(driver.getCurrentUrl());
 }
-	 @Test(priority=15)
+	 @Test(priority=23)
 	 public static  void SndMessagewithoutnumberinsentonly() throws Exception
 		{
 		      driver.get(driver.getCurrentUrl());
@@ -232,7 +328,7 @@ public class TextMessagingFlow extends Base
 			  Testmessagingscreen.SndMessagewithoutnumber();
 			  Thread.sleep(2000);
 }
-	 @Test(priority=16)
+	 @Test(priority=24)
 	 public static  void sndmsgbyselectinganothervumbernumberinsentonly() throws Exception
 		{
 		      driver.get(driver.getCurrentUrl());
@@ -241,7 +337,7 @@ public class TextMessagingFlow extends Base
 			  Testmessagingscreen.sndmsgbyselectinganothervumbernumber();
 			  Thread.sleep(2000);
 }
-	 @Test(priority=17)
+	 @Test(priority=25)
 	 public static  void Refreshinsentonly() throws Exception
 		{
 		      driver.get(driver.getCurrentUrl());
@@ -250,6 +346,15 @@ public class TextMessagingFlow extends Base
 			  Testmessagingscreen.Refresh();
 			  Thread.sleep(2000);
 		}
+	 @Test(priority=26)
+	 public static  void infoicon() throws Exception
+		{
+		      driver.get(driver.getCurrentUrl());
+			  test = extent.createTest("To check and verify the info icon");
+			  Thread.sleep(2000);
+			  Testmessagingscreen.Refresh();
+			  Thread.sleep(2000);
+}
 }
 
 

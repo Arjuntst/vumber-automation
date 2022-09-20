@@ -171,6 +171,16 @@ public class Testmessagingscreen extends ReusableFunction {
 			rf.clickButton(driver, Object_repository_textmessage.all);
 			rf.clickButton(driver, Object_repository_textmessage.Refresh);
 		}
+		public static void ReceivedonlyMsgs() throws InterruptedException
+		{
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			Thread.sleep(2000);
+			rf.clickButton(driver, Object_repository_textmessage.textMsg);
+			rf.clickButton(driver, Object_repository_textmessage.Receivedonly);
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			Thread.sleep(2000);
+			
+		}
 		public static void opensentonlyMsgs() throws InterruptedException
 		{
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -181,6 +191,14 @@ public class Testmessagingscreen extends ReusableFunction {
 			Thread.sleep(2000);
 			
 		}
+		public static void infoicon() throws InterruptedException
+		{
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			Thread.sleep(2000);
+			rf.clickButton(driver, Object_repository_textmessage.textMsg);
+			rf.clickButton(driver, Object_repository_textmessage.Infoicon);
+		}
+		
 }
 		
 	 

@@ -20,4 +20,6 @@ public class Object_repository_textmessage {
 	public static String CloseMsgTab="xpath>/html/body/app-root/fw-authenticated-user/div/div[2]/div[2]/ppn-smspage/p-sidebar/div/ppn-newmessage/div/div/div[1]/form/div[6]/div/button[2]";
 	public static String selectdropdown="xpath>/html/body/app-root/fw-authenticated-user/div/div[2]/div[2]/ppn-smspage/p-sidebar/div/ppn-newmessage/div/div/div[1]/form/div[2]/div/select";
 	public static String sentonly="xpath>/html/body/app-root/fw-authenticated-user/div/div[1]/div/div[1]/ppn-menu/ul/li[3]/ul/li[3]/a";
+	public static String Receivedonly="xpath>/html/body/app-root/fw-authenticated-user/div/div[1]/div/div[1]/ppn-menu/ul/li[3]/ul/li[2]/a/span";
+    public static String Infoicon="xpath/html/body/div/div/button";
 }
